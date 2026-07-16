@@ -133,7 +133,8 @@ body{
     margin-top: 20px;
 }
 .footer{
-    padding: 100px 100px;
+    display: flex;
+    padding: 40px 40px;
     justify-content: space-between;
     background-color: #00008B;
 }
