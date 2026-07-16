@@ -34,13 +34,6 @@ body{
     color: white;
     cursor: pointer;
 }
-/* .banner-root{
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    padding-top: 60px;
-    height: 100vh;
-} */
 .banner-part{
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./assets/banner.jpg);
     background-position: center;
@@ -63,5 +56,25 @@ body{
 .banner-center .common-btn{
     margin-top: 200px;
 }
-
-
+.heading-speakers{
+    text-align: center;
+    font-size: x-large;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    height: 100%;
+    grid-gap: 30px;
+    padding: 30px 40px 60px 40px;
+}
+.grid-card{
+    background: white;
+    border-radius: 16px;
+    text-align: left;
+}
+.grid-card img{
+    height: 300px;
+    max-width: 100%;
+    object-fit: cover;
+}
