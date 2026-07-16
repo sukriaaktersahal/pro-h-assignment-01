@@ -132,4 +132,16 @@ body{
     margin-right: 75px;
     margin-top: 20px;
 }
+.footer{
+    padding: 100px 100px;
+    justify-content: space-between;
+    background-color: #00008B;
+}
+.foo{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 20px;
+}
+
 
